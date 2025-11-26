@@ -1,0 +1,21 @@
+{
+  "menuFile":"File",
+  "menuLanguage":"Language",
+  "labelMagicNumber":"Magic Number:",
+  "labelService":"Service:",
+  "labelAccount":"Account:",
+  "labelPassword":"Password:",
+  "buttonAdd":"Add",
+  "buttonRemove":"Remove",
+  "buttonFind":"Find",
+  "buttonClear":"Clear",
+  "dockWidgetServices":"List of Services",
+  "titleMainWindow":"Account Password Manager",
+  "aboutTitle":"About Account Password Manager",
+  "aboutText":"Coding by Python original author. AES-256 web port. Author: Yi-Hao Jhu",
+  "ready":"Ready",
+  "findNoService":"Can't find \"%s\"",
+  "findService":"Found \"%s\"",
+  "addService":"Added \"%s\"",
+  "removeService":"Removed \"%s\""
+}
