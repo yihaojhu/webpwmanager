@@ -1,0 +1,21 @@
+{
+  "menuFile":"檔案",
+  "menuLanguage":"語言",
+  "labelMagicNumber":"魔法數字：",
+  "labelService":"服務：",
+  "labelAccount":"帳號：",
+  "labelPassword":"密碼：",
+  "buttonAdd":"加入",
+  "buttonRemove":"移除",
+  "buttonFind":"尋找",
+  "buttonClear":"清除",
+  "dockWidgetServices":"服務列表",
+  "titleMainWindow":"帳號密碼管理器",
+  "aboutTitle":"關於 帳號密碼管理器",
+  "aboutText":"原作者 Python 桌面程式移植至網頁版，使用 AES-256 加密。作者：朱奕豪",
+  "ready":"準備完成",
+  "findNoService":"找不到 \"%s\"",
+  "findService":"已找到 \"%s\"",
+  "addService":"已加入 \"%s\"",
+  "removeService":"已移除 \"%s\""
+}
