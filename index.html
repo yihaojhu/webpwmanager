@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Account Password Manager</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- CryptoJS for AES + PBKDF2 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">Account Password Manager</h1>
+      <div class="controls">
+        <select id="langSelect"></select>
+        <input id="importFile" type="file" accept=".json" />
+        <button id="btnImport">Import JSON / converted .ppb</button>
+        <button id="btnExport">Export JSON</button>
+        <button id="btnAbout">About</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="form">
+        <label id="labelMagicNumber">Magic Number</label>
+        <input id="magicNumber" type="password" maxlength="64">
+
+        <label id="labelService">Service</label>
+        <input id="service" type="text">
+
+        <label id="labelAccount">Account</label>
+        <input id="account" type="text">
+
+        <label id="labelPassword">Password</label>
+        <input id="password" type="text">
+
+        <div class="buttons">
+          <button id="btnAdd">Add</button>
+          <button id="btnRemove">Remove</button>
+          <button id="btnFind">Find</button>
+          <button id="btnClear">Clear</button>
+        </div>
+      </div>
+
+      <aside class="services">
+        <h3 id="servicesTitle">List of Services</h3>
+        <ul id="serviceList"></ul>
+      </aside>
+    </main>
+
+    <footer id="status"></footer>
+  </div>
+
+  <!-- about modal (simple) -->
+  <div id="aboutModal" class="modal hidden">
+    <div class="modal-content">
+      <h2 id="aboutTitle">About</h2>
+      <p id="aboutText"></p>
+      <button id="closeAbout">Close</button>
+    </div>
+  </div>
+</body>
+</html>
