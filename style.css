@@ -1,0 +1,19 @@
+:root{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
+body{margin:0;padding:1rem;background:#f7f7fb;color:#111}
+.container{max-width:900px;margin:0 auto}
+header{display:flex;justify-content:space-between;align-items:center}
+.controls{display:flex;gap:.5rem;align-items:center}
+main{display:flex;gap:1rem;margin-top:1rem}
+.form{flex:1;background:#fff;padding:1rem;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.form label{display:block;margin-top:.75rem;font-weight:600}
+.form input{width:100%;padding:.5rem;border:1px solid #ddd;border-radius:4px;margin-top:.25rem}
+.buttons{display:flex;gap:.5rem;margin-top:1rem}
+.buttons button{flex:1;padding:.5rem;border-radius:6px;border:none;background:#3b82f6;color:white}
+.services{width:260px;background:#fff;padding:1rem;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.services ul{list-style:none;padding:0;margin:0;max-height:420px;overflow:auto}
+.services li{padding:.4rem;border-bottom:1px dashed #eee;cursor:pointer}
+.services li:hover{background:#f0f9ff}
+#status{margin-top:1rem;color:#666}
+.modal{position:fixed;left:0;top:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.35)}
+.modal.hidden{display:none}
+.modal-content{background:white;padding:1rem 1.25rem;border-radius:8px;width:90%;max-width:420px}
